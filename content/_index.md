@@ -1,14 +1,26 @@
 +++
-title = "My presentation"
+title = "Reproducibility (paranoia) for Predocs"
 outputs = ["Reveal"]
 +++
 
-# Hello world!
+## Reproducibility (paranoia) for Predocs
 
-This is my first slide.
+> What are containers and software environments and how can I become a more paranoid bioinformatician?
+
+
+#### Slides: <URL>
+
+Michael Hall - Iqbal Group
 
 ---
 
-# Hello Mars!
+Insert image of different layers of envs
 
-This is my second slide
+---
+
+# Why?
+
+<p class="fragment fade-in-then-semi-out">Installing software sucks</p>
+<p class="fragment fade-in-then-semi-out">Installing software sucks even more on a cluster</p>
+<p class="fragment fade-in-then-semi-out">Work smarter, not harder</p>
+<p class="fragment">Makes it much easier to work with others on the same code/project</p>

@@ -1,5 +1,5 @@
 languageCode = "en-gb"
-title = "My presentation"
+title = "Reproducibility (paranoia) for Predocs"
 theme = "reveal-hugo"
 relativeURLs = true
 uglyURLs = true
