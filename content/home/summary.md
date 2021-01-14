@@ -22,13 +22,15 @@ weight = 40
 
 # Resources
 
-These slides: <>  
+**Slides: [envs-primer.netlify.app](https://envs-primer.netlify.app/)**  
+Slides repo: <https://github.com/mbhall88/envs-primer>    
 [EMBL BioIT Singularity course](https://git.embl.de/grp-bio-it/singularity-training-2019)  
 [Pyenv Docs](https://github.com/pyenv/pyenv)  
 [Poetry Docs](https://python-poetry.org/)  
 [Conda Docs](https://docs.conda.io)  
 [Bioconda Docs](https://bioconda.github.io/)    
 [Singularity Docs](https://sylabs.io/guides/3.5/user-guide/)  
-[EIPP 2019 Singularity group project](https://github.com/mbhall88/eipp-2019-singularity)
+[EIPP 2019 Singularity group project](https://github.com/mbhall88/eipp-2019-singularity)  
+Contact me on the EBI Predoc Slack
 
 {{% /section %}}

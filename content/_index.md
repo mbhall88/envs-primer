@@ -8,7 +8,7 @@ outputs = ["Reveal"]
 > What are containers and software environments and how can I become a more paranoid bioinformatician?
 
 
-#### Slides: <URL>
+**Slides: [envs-primer.netlify.app](https://envs-primer.netlify.app/)**
 
 Michael Hall - Iqbal Group
 

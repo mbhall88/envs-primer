@@ -16,7 +16,7 @@ weight = 20
 <p class="fragment grow">Why should I use it over virtual envs?</p>
 
 <p class="fragment fade-in-then-semi-out">
-Support for languages other than Python - it's probably more like `apt` than `pip`
+Support for languages other than Python - it's probably more like <code>apt</code> than <code>pip</code>
 </p>
 <p class="fragment fade-in-then-semi-out">
 You want to use newer language standards, such as C++17
@@ -69,12 +69,8 @@ Or, install with `pyenv`
 
 ```shell
 $ pyenv install miniconda3-4.7.10
-$ conda config --add channels defaults
-$ conda config --add channels bioconda
-$ conda config --add channels conda-forge
 ```
 
-Note: Channel order is **very** important
 
 ---
 
@@ -84,6 +80,9 @@ Note: Channel order is **very** important
 $ mkdir condaproj && cd condaproj
 
 $ pyenv local miniconda3-4.7.10
+$ conda config --add channels defaults
+$ conda config --add channels bioconda
+$ conda config --add channels conda-forge
 
 $ conda create --name snp_paper samtools bcftools
 
@@ -95,7 +94,6 @@ bcftools 1.9
 
 $ conda info --envs
 # conda environments:
-#
 base                     /home/vagrant/.pyenv/versions/miniconda3-4.7.10
 snp_paper             *  /home/vagrant/.pyenv/versions/miniconda3-4.7.10/envs/snp_paper
 
@@ -106,5 +104,7 @@ $ conda install snakemake=5.30.2
 $ snakemake --version
 5.30.2
 ```
+
+Note: Channel order is **very** important
 
 {{% /section %}}
