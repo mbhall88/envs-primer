@@ -14,7 +14,9 @@ Michael Hall - Iqbal Group
 
 ---
 
-Insert image of different layers of envs
+## Bird's-eye view
+
+<img src="images/overview.png"  style="border: none;">
 
 ---
 
