@@ -84,12 +84,12 @@ $ conda config --add channels defaults
 $ conda config --add channels bioconda
 $ conda config --add channels conda-forge
 
-$ conda create --name snp_paper samtools bcftools
+$ conda create --name snp_paper samtools=1.11 bcftools=1.11
 
 $ conda activate snp_paper
 
 $ bcftools --version
-bcftools 1.9
+bcftools 1.11
 ...
 
 $ conda info --envs
@@ -103,6 +103,8 @@ $ conda install snakemake=5.30.2
 
 $ snakemake --version
 5.30.2
+
+$ conda deactivate
 ```
 
 Note: Channel order is **very** important
