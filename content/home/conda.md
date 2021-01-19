@@ -76,11 +76,12 @@ $ pyenv install miniconda3-4.7.10
 
 ## Usage
 
+
 ```shell
 $ mkdir condaproj && cd condaproj
 
 $ pyenv local miniconda3-4.7.10
-$ conda config --add channels defaults
+$ conda config --add channels defaults  # channel order VERY important
 $ conda config --add channels bioconda
 $ conda config --add channels conda-forge
 
@@ -107,6 +108,5 @@ $ snakemake --version
 $ conda deactivate
 ```
 
-Note: Channel order is **very** important
 
 {{% /section %}}

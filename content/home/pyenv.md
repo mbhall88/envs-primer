@@ -18,20 +18,11 @@ Create an isolated environment where you effectively get a "clean" python instal
 
 ### (Python) virtual environments
 
-```py
-# np.py
-import numpy
-
-print(numpy.__version__)
-```
-
 
 ```shell
 $ mkdir paranoid && cd paranoid
 
-$ vim np.py  # insert the contents from the above python snippet
-
-$ python3 np.py
+$ python3 -c "import numpy; print(numpy.__version__)"
 1.18.3 # i.e. whatever is installed in the system wide python
 
 $ python3 -m venv .venv  # create new env
@@ -42,7 +33,7 @@ $ source .venv/bin/activate  # makes our new env the "active" python
 
 $ which python3  # shows the location of our environment python
 
-$ python3 np.py  # use our new env to run the python code
+$ python3 -c "import numpy; print(numpy.__version__)"
 Traceback (most recent call last):
   File "np.py", line 2, in <module>
     import numpy
@@ -61,7 +52,7 @@ $ deactivate
 
 <https://github.com/pyenv/pyenv>
 
-<img src="images/pyenv.png"  style="border: none;">
+<img src="images/pyenv.png"  style="border: none;" height="450">
 
 
 ---

@@ -7,7 +7,7 @@ weight = 40
 
 <p class="fragment">Use pyenv to manage Python versions and environments</p>
 <p class="fragment">Use conda for managing environments with other language requirements</p>
-<p class="fragment">Use containers for <b>all</b> analyses</p>
+<p class="fragment">Use containers/environments for <b>all</b> analyses</p>
 <p class="fragment">Always be explicit with versions</p>
 
 ---
